@@ -1,7 +1,7 @@
-console.log('CARGANDO Bot Tiburón🦈 v21.')
-console.log('CARGANDO Bot Tiburón🦈 v21..')
-console.log('CARGANDO Bot Tiburón🦈 v21...')
-console.log('INICIANDO Bot Tiburón🦈 v21')
+console.log('CARGANDO Bot Tiburón🦈 v2.1.')
+console.log('CARGANDO Bot Tiburón🦈 v2.1..')
+console.log('CARGANDO Bot Tiburón🦈 v2.1...')
+console.log('INICIANDO Bot Tiburón🦈 v2.1')
 
 import { join, dirname } from 'path'
 import { createRequire } from 'module';
