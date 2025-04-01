@@ -1,5 +1,5 @@
 {
-    "name": "bot-tiburon-official",
+    "name": "bot-tiburon",
     "version": "21.b.1",
     "description": "bot del whatsapp version beta",
     "main": "index.js",
@@ -28,7 +28,7 @@
     ],
     "homepage": "no",
     "author": {
-        "name": "DIEGO-OFC"
+        "name": "YO-SOY-YO"
     },
     "repository": {
         "type": "git",
