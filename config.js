@@ -12,12 +12,12 @@ import { platform } from 'process'
  
 global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') { return rmPrefix ? /file:\/\/\//.test(pathURL) ? fileURLToPath(pathURL) : pathURL : pathToFileURL(pathURL).toString() }; global.__dirname = function dirname(pathURL) { return path.dirname(global.__filename(pathURL, true)) }; global.__require = function require(dir = import.meta.url) { return createRequire(dir) } 
 const __dirname = global.__dirname(import.meta.url)
-global.owner = [['584125778026']
+global.owner = [['573133374132']
 //[número, Nombre de creador/dueño?, Modo programador?]
 ] //Pon tu número aquí 
 global.smods = []
-global.mods = ['595983186566'] // números de moderadores aquí
-global.prems = ['595983186566'] // numeros premium aquí 
+global.mods = ['573133374132'] // números de moderadores aquí
+global.prems = ['573133374132'] // numeros premium aquí 
 global.APIs = { // Sitios de APIs
   // nombre: 'https://sitioweb'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -56,7 +56,7 @@ global.imagen1 = fs.readFileSync('./menu2.jpg')
 
 // Sticker WM / Info del sticker 
 global.packname = 'Bot Tiburón🦈'
-global.author = 'DIEGO-OFC'
+global.author = 'BOT-TIBURON'
 global.wm = 'Bot Tiburón🦈'
 
 global.multiplier = 100 // más alto el número, más difícil se volverá subir de nivel
